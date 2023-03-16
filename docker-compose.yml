@@ -1,0 +1,13 @@
+services:
+  armacrud_db:
+    image: postgres:alpine
+    container_name: armacrud_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      PGDATA: /data/postgres
+    volumes:
+      - ./db:/data/postgres
+    ports:
+      - "5432:5432"
+
