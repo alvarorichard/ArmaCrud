@@ -38,7 +38,7 @@ python armacrud
 
 Pronto deve estar tudo online
 
-# Requisicoes
+# Requisições
 
 ## Criar
 
