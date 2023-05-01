@@ -2,7 +2,7 @@
 
 # Como subir
 
-precisa tar instalado:
+Requisitos:
 
 - Docker
 - Docker Compose
